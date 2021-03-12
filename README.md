@@ -23,10 +23,10 @@ We realized after running a logistic regression that the last_trip_date column w
 
 
 # Daniel
-|Model Name|Hyperparameters|Score (mean accuracy on Test data)|
-|----------|---------------|-----|
-| RandomForestClassifier|estimators=100| 0.7606|
-| RandomForestClassifier|estimators=100| |
+|Model Name|Hyperparameters|Score (mean accuracy on Test data)| notes|
+|----------|---------------|-----|-----|
+| RandomForestClassifier|estimators=100| 0.7606| first attempt with default hyperparameters |
+| RandomForestClassifier|estimators=500, param_max_depth=8| 0.7875| bestmodel from gridsearch |
 |         |               |      |
 |         |               |      |
 |         |               |      |
