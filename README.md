@@ -13,7 +13,7 @@ We realized after running a logistic regression that the last_trip_date column w
 |Model Name|Hyperparameters|Score (mean accuracy on Test data)|notes|
 |----------|---------------|-----|----|
 | Gradient Boost Classifier|estimators=100, learning_rate=1.0, max_depth=3, min_samples_split=2| .7878|total default "hot garbage"|
-| Gradient Boost Classifer|estimators=100, learning_rate=.1| .7898| tweaking down learning rate|
+| Gradient Boost Classifer|estimators=100, learning_rate=.1, max_depth=3, min_samples_split=2| .7898| tweaking down learning rate|
 | Gradient BOost Classifier|estimators=200, learning_rate=.1, max_depth=6, min_samples_split=4|.7947|staged_predict, grid_search, hyperparameter tuning|
 |         |               |      |
 |         |               |      |
