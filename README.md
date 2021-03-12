@@ -18,9 +18,9 @@ We realized after running a logistic regression that the last_trip_date column w
 
 
 
+![GitHub Logo](https://github.com/daniellkennett/churn_case_study/blob/main/images/Michael/gridsearch_heatmap.png?raw=true)
 
 
-![GitHub Logo](https://github.com/daniellkennett/churn_case_study/blob/main/images/Michael/gdbc_feature_importance.png?raw=true)
 
 
 
@@ -53,7 +53,7 @@ We decided on mean accuracy against Test data (typically the .score method of th
 
 # Based on insights from the model, what plans do you propose to reduce churn?
 
-![GitHub Logo](https://github.com/daniellkennett/churn_case_study/blob/main/images/Michael/gridsearch_heatmap.png?raw=true)
+![GitHub Logo](https://github.com/daniellkennett/churn_case_study/blob/main/images/Michael/gdbc_feature_importance.png?raw=true)
 
 
 ![GitHub Logo](https://github.com/daniellkennett/churn_case_study/blob/main/images/Michael/gb_partial_dependence_plots.png?raw=true)
