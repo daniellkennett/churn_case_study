@@ -41,7 +41,7 @@ We computed the target by engineering a new binary feature "active" that takes t
 
 ### TLDR;
 1: active user
-2. churned user
+0: churned user
 
 # What model did you use in the end? Why? 
 Gradient boosting, radom forest and logistical regression were all tested.
