@@ -14,7 +14,7 @@ We realized after running a logistic regression that the last_trip_date column w
 |----------|---------------|-----|----|
 | Gradient Boost Classifier|estimators=100, learning_rate=1.0, max_depth=3, min_samples_split=2| .7878|total default "hot garbage"|
 | Gradient Boost Classifer|estimators=100, learning_rate=.1, max_depth=3, min_samples_split=2| .7898| tweaking down learning rate|
-| Gradient Boost Classifier|estimators=200, learning_rate=.1, max_depth=6, min_samples_split=4|.7947|staged_predict, grid_search, hyperparameter tuning|
+| Gradient Boost Classifier|estimators=200, learning_rate=.1, max_depth=6, min_samples_split=4|.7964|staged_predict, grid_search, hyperparameter tuning|
 
 
 # Daniel
@@ -30,20 +30,21 @@ We realized after running a logistic regression that the last_trip_date column w
 | || |  |
 | || |  |
 
-## How did you compute the target?
+# How did you compute the target?
 We computed the target by engineering a new binary feature "active" that takes the value of 1 if the rider did have a ride within the last 30 days, and 0 otherwise. 
 
-## What model did you use in the end? Why? 
-Ultimately, gradient boost with feature engineering and hyperparameter tuning achieved the best scores 
+# What model did you use in the end? Why? 
+Ultimately, gradient boost with hyperparameter tuning achieved the best scores. 
     
-## Alternative models you considered? Why are they not good enough?
-We considered random forest and logistic models, however they were not good enough because 
+# Alternative models you considered? Why are they not good enough?
+We considered random forest and logistic models, however the logistic model does not account for 
 
-## What performance metric did you use to evaluate the model? Why?
+# What performance metric did you use to evaluate the model? Why?
+We decided on mean accuracy against Test data (typically the .score method of the models in sci kit learn). 
 
-## Based on insights from the model, what plans do you propose to reduce churn?
+# Based on insights from the model, what plans do you propose to reduce churn?
 
-## What are the potential impacts of implementing these plans or decisions? What performance metrics did you use to evaluate these decisions, why?
+# What are the potential impacts of implementing these plans or decisions? What performance metrics did you use to evaluate these decisions, why?
 
 
 
