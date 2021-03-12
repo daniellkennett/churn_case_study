@@ -58,6 +58,10 @@ We decided on mean accuracy against Test data (typically the .score method of th
 
 ![GitHub Logo](https://github.com/daniellkennett/churn_case_study/blob/main/images/Michael/gb_partial_dependence_plots.png?raw=true)
 
+1. The company should reevaluate their advertisement budget in King’s Landing, Astapor, Winterfell. For example, if the company equally distributes the budget among all three, they are getting more activity from city one, so it may be more in the interest of the company to focus their spending more. 
+
+2. When customers are getting hit by surge pricing, they trend towards churning. Reduce surge price rates. 
+
 # What are the potential impacts of implementing these plans or decisions? What performance metrics did you use to evaluate these decisions, why?
 
 
