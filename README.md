@@ -1,9 +1,10 @@
 # churn_case_study
 
 
-Model Name|Hyperparameters|Score 
-         |               |     
-         |               |     
-         |               |     
-         |               |     
-         |               |     
+|Model Name|Hyperparameters|Score|
+|----------|---------------|-----|
+|         |               |      |
+|         |               |      |
+|         |               |      |
+|         |               |      |
+|         |               |      |
