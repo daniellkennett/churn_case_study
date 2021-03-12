@@ -40,7 +40,9 @@ We realized after running a logistic regression that the last_trip_date column w
 We computed the target by engineering a new binary feature "active" that takes the value of 1 if the rider had a ride within the last 30 days, and 0 otherwise. 
 
 ### TLDR;
+
 1: active user
+
 0: churned user
 
 # What model did you use in the end? Why? 
@@ -62,6 +64,7 @@ We decided on mean accuracy against Test data (typically the .score method of th
 
 2. When customers are getting hit by surge pricing, they trend towards churning. Reduce surge price rates. 
 
+3. Based on the partial dependence plot for the phone feature, we recommend the mobile team work on ensuring the same customer experience between iPhone and Android platform. We are seeing a slightly downward trending slope between Android and iPhone customers which implies iPhone customers were more likely to churn given all else equal.
 # What are the potential impacts of implementing these plans or decisions? What performance metrics did you use to evaluate these decisions, why?
 
 
