@@ -31,10 +31,10 @@ We realized after running a logistic regression that the last_trip_date column w
 | RandomForestClassifier|estimators=500, param_max_depth=8| 0.7875| bestmodel from gridsearch |
 
 
-# charles
+# Charles
 |Model Name|Hyperparameters|Score (mean accuracy on Test data)| notes|
 |----------|---------------|-----|-----|
-| LogisticClassifier|iter= 100,000| 0.7256|  |
+| LogisticClassifier|iter= 100,000| 0.7256| loses accuracy if the model cycles through too many iterations |
 
 # How did you compute the target?
 We computed the target by engineering a new binary feature "active" that takes the value of 1 if the rider had a ride within the last 30 days, and 0 otherwise. 
