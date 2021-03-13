@@ -1,6 +1,9 @@
 
 # churn_case_study
 
+![GitHub Logo](https://github.com/daniellkennett/churn_case_study/blob/main/images/Daniel/image.png?raw=true)
+
+
 # Data Cleansing
 
 ## Missing Values:
@@ -48,9 +51,6 @@ We computed the target by engineering a new binary feature "active" that takes t
 # What model did you use in the end? Why? 
 Gradient boosting, radom forest and logistical regression were all tested.
 Ultimately, gradient boost with hyperparameter tuning achieved the best scores. 
-
-
-# What performance metric did you use to evaluate the model? Why?
 We decided on mean accuracy against Test data (typically the .score method of the models in sci kit learn). 
 
 # Based on insights from the model, what plans do you propose to reduce churn?
@@ -65,7 +65,13 @@ We decided on mean accuracy against Test data (typically the .score method of th
 2. When customers are getting hit by surge pricing, they trend towards churning. Reduce surge price rates. 
 
 3. Based on the partial dependence plot for the phone feature, we recommend the mobile team work on ensuring the same customer experience between iPhone and Android platform. We are seeing a slightly downward trending slope between Android and iPhone customers which implies iPhone customers were more likely to churn given all else equal.
-# What are the potential impacts of implementing these plans or decisions? What performance metrics did you use to evaluate these decisions, why?
+
+
+# Final thoughts
+* investigate creating new features
+* Explore more hyperparameters
+* Dataset timeline is very small. Would be more accurate with more info. Additionally, all signups to the service occured in January of 2014.
+
 
 
 
